@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Teddy – Haustier-Tagebuch</title>
 <meta name="description" content="Teddy – Teddy – Haustier-Tagebuch">
+<link rel="alternate" hreflang="de" href="https://alex-shaggy.github.io/teddy-app/">
+<link rel="alternate" hreflang="en" href="https://alex-shaggy.github.io/teddy-app/en/">
 <link rel="icon" href="icon.png">
 <style>
 :root { --bg:#F3EFEA; --card:#fff; --ink:#1E1A17; --soft:#8A817A; --accent:#C8804F; --line:#E7E1DA; }
@@ -13,6 +15,9 @@
 body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
 header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+.lang { margin-left:auto; display:flex; gap:2px; padding:3px; border-radius:999px; background:var(--card); border:1px solid var(--line); }
+.lang a, .lang b { font-size:13px; font-weight:700; padding:4px 10px; border-radius:999px; text-decoration:none; }
+.lang b { background:var(--ink); color:var(--bg); }
 header img { width:56px; height:56px; border-radius:12.5px; box-shadow:0 5px 10px rgba(30,26,23,.12); }
 header a { color:inherit; text-decoration:none; font-weight:600; }
 h1 { font:600 38px/1.15 ui-serif, "New York", Georgia, serif; margin:28px 0 4px; }
@@ -32,10 +37,10 @@ footer { text-align:center; color:var(--soft); font-size:13px; margin-top:20px; 
 </head>
 <body>
 <main>
-<header><img src="icon.png" alt=""><a href="index.html">Teddy</a></header>
+<header><img src="icon.png" alt=""><a href="index.html">Teddy</a><span class="lang"><b>DE</b><a href="en/index.html">EN</a></span></header>
 <h1>Hallo,<span>Mensch.</span></h1>
 <p class="sub">Teddy – Haustier-Tagebuch</p>
-<section class="summary"><h2>Kurz gesagt</h2><ul><li>Teddy ist das Zuhause für alles rund um deine Tiere: für Hund, Katze, Kaninchen und das ganze Rudel.</li><li>Dein Tier lebt in der App. Es freut sich, wenn du es streichelst, wird müde, wenn es spät wird, und erinnert dich, wenn etwas ansteht.</li><li>Kostenlos, ohne Werbung, ohne Tracking. Für iPhone, bald im App Store.</li></ul></section><section><h2>Alles im Blick</h2><ul><li>Steckbrief mit Chip- und Passnummer, Rasse, Geburtstag und Notfallkarte</li><li>Impfungen, Entwurmung, Medikamente und Gewicht, mit Erinnerungen, bevor etwas fällig wird</li><li>Läufigkeitskalender mit Prognose für Hündinnen</li><li>Tierarztbericht als PDF: Anlass, Zustand und die letzten Wochen auf einen Blick</li><li>Dokumente wie den Heimtierausweis einfach scannen</li></ul></section><section><h2>Der Tag mit deinem Tier</h2><ul><li>Tagesablauf mit Futter, Gassi, Spielen und Pflege zum Abhaken</li><li>Pfotenpost: Teddy sagt dir, was heute dran ist</li><li>Termine landen auf Wunsch automatisch in deinem Kalender</li><li>Füttern, Streicheln und Kuscheln, mit echten Tiergeräuschen</li></ul></section><section><h2>Gemeinsam kümmern</h2><ul><li><strong>Rudel:</strong> Familie und Partner pflegen dieselben Tiere</li><li><strong>Betreuung auf Zeit:</strong> per Link oder QR-Code an Tiersitter, mit Tagesablauf und Hinweisen</li></ul></section><section><h2>Erinnerungen</h2><ul><li>Momente als Fotoalbum mit Zeitstrahl bis zur Geburt</li><li>Diashows mit Musik, die du als Video teilen kannst</li><li>Widget für den Homescreen</li></ul></section><section><h2>Deine Daten bleiben deine</h2><p>Teddy hat keinen eigenen Server. Alles liegt auf deinem Gerät und, wenn du möchtest, in deiner eigenen iCloud. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p><p>Fragen oder Ideen? Schau in die <a href="support.html">Hilfe</a> oder schreib an <a href="mailto:alexshagov@icloud.com">alexshagov@icloud.com</a>.</p></section>
+<section class="summary"><h2>Kurz gesagt</h2><ul><li>Teddy ist das Zuhause für alles rund um deine Tiere: für Hund, Katze, Kaninchen und das ganze Rudel.</li><li>Dein Tier lebt in der App. Es freut sich, wenn du es streichelst, wird müde, wenn es spät wird, und erinnert dich, wenn etwas ansteht.</li><li>Kostenlos, ohne Werbung, ohne Tracking. Auf Deutsch und Englisch. Für iPhone, bald im App Store.</li></ul></section><section><h2>Alles im Blick</h2><ul><li>Steckbrief mit Chip- und Passnummer, Rasse, Geburtstag und Notfallkarte</li><li>Impfungen, Entwurmung, Medikamente und Gewicht, mit Erinnerungen, bevor etwas fällig wird</li><li>Läufigkeitskalender mit Prognose für Hündinnen</li><li>Tierarztbericht als PDF: Anlass, Zustand und die letzten Wochen auf einen Blick</li><li>Dokumente wie den Heimtierausweis einfach scannen</li></ul></section><section><h2>Der Tag mit deinem Tier</h2><ul><li>Tagesablauf mit Futter, Gassi, Spielen und Pflege zum Abhaken</li><li>Pfotenpost: Teddy sagt dir, was heute dran ist</li><li>Termine landen auf Wunsch automatisch in deinem Kalender</li><li>Füttern, Streicheln und Kuscheln, mit echten Tiergeräuschen</li><li>Widget für den Homescreen</li></ul></section><section><h2>Gemeinsam kümmern</h2><ul><li><strong>Rudel:</strong> Familie und Partner pflegen dieselben Tiere</li><li><strong>Betreuung auf Zeit:</strong> per Link oder QR-Code an Tiersitter, mit Tagesablauf und Hinweisen</li></ul></section><section><h2>Deine Daten bleiben deine</h2><p>Teddy hat keinen eigenen Server. Alles liegt auf deinem Gerät und, wenn du möchtest, in deiner eigenen iCloud. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p><p>Fragen oder Ideen? Schau in die <a href="support.html">Hilfe</a> oder schreib an <a href="mailto:alexshagov@icloud.com">alexshagov@icloud.com</a>.</p></section>
 <nav><a href="support.html">Hilfe</a><a href="datenschutz.html">Datenschutz</a><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a></nav>
 <footer>Mit Liebe gemacht für Teddy</footer>
 </main>
